@@ -11,6 +11,8 @@
 		2B90D50D2AA74BA8000F2573 /* TestLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B90D5022AA74BA8000F2573 /* TestLibrary.framework */; };
 		2B90D5122AA74BA8000F2573 /* TestLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B90D5112AA74BA8000F2573 /* TestLibraryTests.m */; };
 		2B90D5132AA74BA8000F2573 /* TestLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B90D5052AA74BA8000F2573 /* TestLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B90D51E2AA74BE4000F2573 /* HelloWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B90D51C2AA74BE4000F2573 /* HelloWorld.h */; };
+		2B90D51F2AA74BE4000F2573 /* HelloWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B90D51D2AA74BE4000F2573 /* HelloWorld.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		2B90D5062AA74BA8000F2573 /* TestLibrary.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = TestLibrary.docc; sourceTree = "<group>"; };
 		2B90D50C2AA74BA8000F2573 /* TestLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B90D5112AA74BA8000F2573 /* TestLibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestLibraryTests.m; sourceTree = "<group>"; };
+		2B90D51C2AA74BE4000F2573 /* HelloWorld.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorld.h; sourceTree = "<group>"; };
+		2B90D51D2AA74BE4000F2573 /* HelloWorld.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorld.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				2B90D5052AA74BA8000F2573 /* TestLibrary.h */,
 				2B90D5062AA74BA8000F2573 /* TestLibrary.docc */,
+				2B90D51C2AA74BE4000F2573 /* HelloWorld.h */,
+				2B90D51D2AA74BE4000F2573 /* HelloWorld.m */,
 			);
 			path = TestLibrary;
 			sourceTree = "<group>";
@@ -92,6 +98,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B90D51E2AA74BE4000F2573 /* HelloWorld.h in Headers */,
 				2B90D5132AA74BA8000F2573 /* TestLibrary.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B90D5072AA74BA8000F2573 /* TestLibrary.docc in Sources */,
+				2B90D51F2AA74BE4000F2573 /* HelloWorld.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
